@@ -1,3 +1,4 @@
+import 'package:bloc_mvvm/views/splash/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'bloc Mvvm',
-      home:
+      home:Splashscreen(),
     );
   }
 }

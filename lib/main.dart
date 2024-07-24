@@ -1,4 +1,5 @@
-import 'package:bloc_mvvm/views/splash/splashScreen.dart';
+import 'package:bloc_mvvm/config/Routes/Routes_Initializing.dart';
+import 'package:bloc_mvvm/config/Routes/Routes_name.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  const MaterialApp(
       title: 'bloc Mvvm',
-      home:Splashscreen(),
+      initialRoute: RoutesName.splashScreen,
+      onGenerateRoute: Routes.generateRoute,
     );
   }
 }

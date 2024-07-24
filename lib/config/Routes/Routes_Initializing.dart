@@ -1,10 +1,9 @@
 
 import 'package:bloc_mvvm/config/Routes/Routes_name.dart';
-import 'package:bloc_mvvm/views/home/home_screen.daart.dart';
-import 'package:bloc_mvvm/views/login/LoginScreen.dart';
-import 'package:bloc_mvvm/views/splash/splashScreen.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import '../../views/view.dart';
 
 class Routes {
   

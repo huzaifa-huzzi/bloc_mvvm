@@ -1,6 +1,5 @@
 
 import 'package:bloc_mvvm/config/Routes/Routes_name.dart';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../views/view.dart';
